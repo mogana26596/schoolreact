@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.add-user{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  gap: 20px;
+  width:700px; 
+}
+
+.add-button{
+  margin-left:400px !important;
+  margin-top:30px !important;
+  margin-bottom:30px !important;
+  width:200px;
+}
+
+.dashboard{
+  margin-top: 70px;
+  margin-left: 230px;
+  margin-bottom:30px;
+}
+
+.user-login{
+  width:300px;
+  height: 50px;
+  background-color: rgb(246, 183, 47) !important;
+}
+
+.profile-login{
+  width :300px;
+  height:50px;
+  background-color:  rgb(65, 112, 231) !important;
+  margin-bottom: 30px !important;
+}
