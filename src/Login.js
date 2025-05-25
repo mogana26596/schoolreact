@@ -14,7 +14,7 @@ function Login() {
           e.preventDefault();
           
           try{
-              const response = await axios.post('http://localhost:3003/register/login', {...formData });
+              const response = await axios.post('https://school-backend-w7w6.onrender.com/register/login', {...formData });
               console.log(response);console.log(formData);
               if(response.data) {
                   await localStorage.setItem("token", response.data);

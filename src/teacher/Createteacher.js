@@ -49,7 +49,9 @@ const Createteacher = () => {
             {/* <!-- Main Content --> */}
            
               <div className="container-fluid">
-          <div>
+          <div><div className='dashboard1'>
+           <img style={{height:"300px",width:"600px"}} src="https://nctaindia.in/images/course/image_b9381e82-84d6-415c-93a1-96779f5a8677.jpg"/>
+        </div>  
               <div className="add-user" style={{margin:"100px auto"}}>
                   <TextField value={teacherDetails.name} onChange={e => handleInput({name: e.target.value})}
                       label="Name" type="name" variant="standard" />

@@ -54,7 +54,10 @@ const Createstudent = () => {
           {/* <!-- Main Content --> */}
          
             <div className="container-fluid">
-        <div>
+        
+            <div className='dashboard1'>
+           <img style={{height:"300px",width:"600px"}} src="https://appedology.com/uploads/images/2021/02/importance-of-school-management-system_750x.jpg"/>
+        </div>  <div>
             <div className="add-user" style={{margin:"100px auto"}}>
                 <TextField value={studentDetails.name} onChange={e => handleInput({name: e.target.value})}
                     label="Name" type="name" variant="standard" />
@@ -75,7 +78,7 @@ const Createstudent = () => {
                     label="Marks" type="name" variant="standard" />
             </div>
              
-            <button style={{margin:"35px  650px"}} type="button" class="btn btn-primary" onClick={handleSubmit}><b>Add Student</b></button>
+            <button style={{margin:"25px  750px"}} type="button" class="btn btn-primary" onClick={handleSubmit}><b>Add Student</b></button>
         
         </div>
         </div>
